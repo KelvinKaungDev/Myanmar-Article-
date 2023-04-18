@@ -73,7 +73,7 @@ struct MenuView: View {
                                     Text("Quizzes")
                                         .font(.title)
                                         .fontWeight(.bold)
-                                        .padding(.bottom, 5)
+
                                         .frame(maxWidth : .infinity, alignment : .leading)
                                     
                                     Text("Before you take the quizzes, You need to read the above articles carefully. Have fun !!!!")
