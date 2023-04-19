@@ -30,7 +30,7 @@ struct SingleQuizCollections : View {
                         let score = quiz.totalScore()
                         let total = quiz.quizzQuestionCount()
         
-                        Text("Congrations! You finished quiz.You got \(score) out of \(total).")
+                        Text("Congratulations! You finished quiz.You got \(score) out of \(total).")
                             .font(.system(size:25))
                             .padding(10)
                             .lineSpacing(3)
@@ -90,7 +90,7 @@ struct SingleQuizCollections : View {
                                 Spacer()
                             }
                             .padding()
-                            .background(.brown)
+                            .background(.gray)
                             .cornerRadius(10)
                             .frame(width: 280, height: 50, alignment: .center)
                         }

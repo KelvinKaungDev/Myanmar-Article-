@@ -7,7 +7,7 @@ struct HomeView: View {
             VStack {
                 VStack (spacing : 10) {
                     Text("Welcome to Myanmar")
-                        .font(.system(size: 32))
+                        .font(.system(size: 29))
                         .fontWeight(.bold)
                     
                     Text("Discover the rich culture and natural beauty")

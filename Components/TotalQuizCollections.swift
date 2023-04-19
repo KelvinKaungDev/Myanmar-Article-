@@ -90,7 +90,7 @@ struct TotalQuizCollections : View {
                                 Spacer()
                             }
                             .padding()
-                            .background(.brown)
+                            .background(.gray)
                             .cornerRadius(10)
                             .frame(width: 280, height: 50, alignment: .center)
                         }

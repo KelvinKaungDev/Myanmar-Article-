@@ -82,7 +82,7 @@ struct TotalQuiz {
     func scoreCheck(score : Int) -> String {
         switch score {
             case 8..<15 :
-                return "Gread Job Your Score is \(score). Now You know famous about Myanmar"
+                return "Congratulations. Great Job Your Score is \(score). Now You know about Myanmar culture very well"
             case 5..<8 :
                 return "Not Bad Your Score is \(score)"
             default :
